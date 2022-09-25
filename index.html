@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>freeCodeCamp Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">please fill this form</p>
+  <div >
+        
+      <form id="survey-form" action="#">
+        <label for="name" id="name-label"
+          ><p>Name:</p>
+          <input type="text" id="name" placeholder="Enter your name" required />
+        </label>
+        <label for="email" id="email-label"
+          ><p>Email:</p>
+          <input
+            type="email"
+            id="email"
+            placeholder="someone@example.com"
+            required
+          />
+        </label>
+        <label for="age" id="number-label"
+          ><p>Age<em>(optional)</em>:</p>
+          <input
+            type="number"
+            id="number"
+            placeholder="Age"
+            min="10"
+            max="99"
+          />
+        </label>
+        <label for="interest" id="interest-label"
+          ><p>What is your favorite bear species?</p>
+          <select id="dropdown">
+            <option selected disabled hidden></option>
+            <option value="1">Brown Bears</option>
+            <option value="2" >Polar Bear</option>
+            <option value="3">Asian Black Bear</option>
+
+          </select>
+        </label>
+        <p>Who is your favourite bear color?</p>
+        <label for="a">
+          <input
+            id="a"
+            type="radio"
+            name="favorite"
+            value="black" checked
+          /> black
+        </label>
+        <label for="b">
+          <input
+            id="b"
+            type="radio"
+            name="favorite"
+            value="white"
+          /> white
+        </label>
+        <label for="c">
+          <input id="c" type="radio" name="favorite" value="Brown" /> Brown
+        </label>
+        <p>Had you seen any bear yet?</p>
+        <label for="bb">
+          <input
+            id="bb"
+            type="checkbox"
+            value="Polar bear"
+          />Polar bear
+        </label>
+        <label for="bb2">
+          <input
+            id="bb2"
+            type="checkbox"
+            value="Asian black bear"
+          />Asian black bear
+        </label>
+        <label for="bb3">
+          <input
+            id="bb3"
+            type="checkbox"
+            value="Brown Bears"
+          />Brown Bears
+        </label>
+        <p>Any other information you would like to share?</p>
+        <textarea id="additional-information" rows="4" cols="50">
+You can provide comments, suggestions, or feedback here.</textarea
+        
+      <label>  <input id="submit" value="submit" type="submit"/></label>
+      </form></div>
+ 
+</html>

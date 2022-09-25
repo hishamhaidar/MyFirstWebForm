@@ -1,0 +1,32 @@
+h1,p{
+  text-align: center;
+  margin: 0 auto;
+}
+html{
+  background-image : url("https://png.pngtree.com/png-vector/20190106/ourlarge/pngtree-cute-bear-face-pattern-background-png-image_309413.jpg");
+}
+div {
+  text-align: center;
+  background-color: 	#996515;
+  margin: 0 auto;
+  color:white;
+  opacity:90%;
+  
+}
+label{
+  display:block;
+  margin:0 auto;
+  padding: 3px;
+  
+}
+input, textarea, select, button {
+  background: #3a3240;
+  color: white;
+  display:block;
+  margin:0 auto;
+  text-align:center;
+  padding: 3px
+}
+input[type="radio"],input[type="checkbox"]{
+display:inline;
+}
